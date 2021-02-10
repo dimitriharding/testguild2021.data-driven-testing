@@ -1,0 +1,20 @@
+{
+  "name": "nightwatch-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch ./test/tax.data-driven.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "csv-tools": "^1.2.0",
+    "nightwatch": "^1.5.1"
+  },
+  "devDependencies": {
+    "geckodriver": "^1.21.1"
+  }
+}
