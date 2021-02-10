@@ -23,7 +23,6 @@ function getTestDataCSV() {
     .toString("utf-8");
 
   const testData = csv.toJSON(csvData);
-  console.log(testData, null, "\t");
   return testData;
 }
 
