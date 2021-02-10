@@ -11,7 +11,7 @@ There are 3 projects in this repo and they are all self contained.
 All you have to do is clone this repo:
 
 ```sh
-cd project-name
+cd project-name # cy-project | nightwatch-project | webdriverio-project
 ```
 
 ```sh
